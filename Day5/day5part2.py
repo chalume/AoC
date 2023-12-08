@@ -74,7 +74,7 @@ def testdata(data):
 				value=(value-start+destination)
 				break
 	#print(value)
-	print("rabiot " +str(rabiot))
+	#print("rabiot " +str(rabiot))
 	rab=rabiot
 	output.append(value)
 	return(rab)

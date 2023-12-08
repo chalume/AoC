@@ -1,0 +1,21 @@
+import glob 
+import os.path 
+import csv
+import os
+import re
+import requests
+
+record=295173412781210
+time=45988373
+factor=0.1
+
+premierGagnant=7711543
+dernierGagnant=38276830
+
+
+def testOneData(boatingTime):
+	speed=45988373-boatingTime
+	distance=speed*boatingTime
+	return(295173412781210-distance)
+
+print((dernierGagnant-premierGagnant)+1)
